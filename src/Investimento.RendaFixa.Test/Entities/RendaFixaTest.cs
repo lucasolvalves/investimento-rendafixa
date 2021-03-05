@@ -11,7 +11,7 @@ namespace Investimento.RendaFixa.Test.Entities
     public class RendaFixaTest
     {
         [TestMethod]
-        public void ShouldCalculateIROfRendaFixaoWhenDataIsValid()
+        public void ShouldCalculateIROfRendaFixaWhenDataIsValid()
         {
             var rendaFixa = new Domain.Entities.RendaFixa(2000.0, 2097.85, 2.0, DateTime.Parse("2021-03-09T00:00:00"), 0.0, 0.0, 0.0, "97% do CDI", "LCI", "BANCO MAXIMA", true, DateTime.Parse("2019-03-14T00:00:00"), 1048.927450, false);
 
@@ -19,7 +19,7 @@ namespace Investimento.RendaFixa.Test.Entities
         }
 
         [TestMethod]
-        public void ShouldNotCalculateIROfTesouDiretoWhenDataIsInvalid()
+        public void ShouldNotCalculateIROfRendaFixaWhenDataIsInvalid()
         {
             var rendaFixa = new Domain.Entities.RendaFixa(0, 0, 2.0, DateTime.Parse("2021-03-09T00:00:00"), 0.0, 0.0, 0.0, "97% do CDI", "LCI", "BANCO MAXIMA", true, DateTime.Parse("2019-03-14T00:00:00"), 1048.927450, false);
 
