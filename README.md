@@ -1,4 +1,4 @@
-# Investimento Tesouro Direto - Guia de início rápido
+# Investimento Renda Fixa - Guia de início rápido
 
 ## O QUE É
 Serviço responsável por obter as custódias de rendas fixas dos clientes.
