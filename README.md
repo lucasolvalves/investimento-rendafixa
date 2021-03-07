@@ -4,8 +4,7 @@
 Serviço responsável por obter as custódias de rendas fixas dos clientes.
 
 ## A QUEM SE DESTINA / OBJETIVO
-Este projeto se trata de um case técnico abordado pela empresta XPTO. 
-O objetivo deste documento é facilitar a compreenção do escopo da solução e de como funciona.
+Este projeto se trata de um case técnico abordado pela empresta XPTO. O objetivo deste documento é facilitar a compreenção do escopo da solução e de seu funcionamento.
 
 ## INICIANDO...
 - `git clone https://github.com/lucasolvalves/investimento-rendafixa.git`
