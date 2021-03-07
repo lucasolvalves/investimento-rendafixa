@@ -3,7 +3,7 @@
 ## O QUE É
 Serviço responsável por obter as custódias de rendas fixas dos clientes.
 
-## A QUEM SE DESTINA / OBJETIVO
+## OBJETIVO
 Este projeto se trata de um case técnico abordado pela empresta XPTO. O objetivo deste documento é facilitar a compreenção do escopo da solução e de seu funcionamento.
 
 ## INICIANDO...
