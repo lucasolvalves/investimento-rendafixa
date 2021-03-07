@@ -15,7 +15,7 @@ namespace Investimento.RendaFixa.Configurations
             return HttpPolicyExtensions
                     .HandleTransientHttpError()
                     .OrResult(msg => !msg.IsSuccessStatusCode)
-                    .WaitAndRetryAsync(3, retryAttempt => TimeSpan.FromSeconds(retryAttempt * 5),
+                    .WaitAndRetryAsync(3, retryCount => TimeSpan.FromSeconds(Math.Pow(2, retryCount)),
                     onRetry: (exception, timeSpan, retryCount, context) =>
                     {
                         _logger.Warn($"Polly: Retentativa: {retryCount}");
